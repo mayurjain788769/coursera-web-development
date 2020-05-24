@@ -1,0 +1,61 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+}
+
+h1{
+	text-align: center;
+}
+
+h2 {
+	margin: 0px;
+	text-align: center;
+}
+
+p {
+	clear: right;
+	width: 90%;
+	margin: 10px;
+}
+
+.block {
+	position: relative;
+	margin: 10px;
+	background: pink;
+	border: 1px solid black;
+}
+
+.block_title {
+	float: right;
+	width: 33%;
+	margin: 0px;
+	align-content: right;
+	border: 1px solid black;
+}
+
+#chicken_block {
+	background: yellow;
+}
+
+#beef_block {
+	background: blue;
+}
+
+#sushi_block {
+	background: red;
+}
+
+#chicken {
+	color: red;
+}
+
+#beef {
+	color: black;
+}
+
+#sushi {
+	color: blue;
+}
